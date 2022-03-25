@@ -9,26 +9,30 @@
 </head>
 <body>
     <section class="elements">
-        <button class="element rock">
-            <img src="./assets/rock1.png" alt="rock" class="element-img">
+        <button class="element"  id="rock">
+            <img src="./assets/rock1.png" alt="rock" class="element-img" id="سنگ">
         </button>
-        <button class="element paper">
-            <img src="./assets/paper1.png" alt="paper" class="element-img">
+        <button class="element" id="paper">
+            <img src="./assets/paper1.png" alt="paper" class="element-img" id="کاغذ">
         </button>
-        <button class="element scissor">
-            <img src="./assets/scis1.png" alt="scissor" class="element-img">
+        <button class="element" id="scissor">
+            <img src="./assets/scis1.png" alt="scissor" class="element-img" id="قیچی">
         </button>
     </section>
 
     <section class="result">
-        <div>
-            شما:
-            <span class="result-score">0</span>
+        <div class="result-caption">
+            شما
         </div>
-        <div>
-            کامپیوتر:
-            <span class="result-score">0</span>
+        <div class="result-caption">
+            کامپیوتر
         </div>
+        <div id="user-choice"></div>
+        <div id="com-choice"></div>
+        <div id="final-result"></div>
     </section>
 </body>
+
+<script src="script.js"></script>
+
 </html>

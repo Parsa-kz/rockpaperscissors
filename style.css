@@ -36,3 +36,24 @@ body{
     justify-items: center;
     align-items: center;
 }
+
+.result-caption{
+    font-size: 3vw;
+}
+
+#user-choice{
+    font-size: 3vw;
+    margin-top: 5px;
+}
+
+#com-choice{
+    font-size: 3vw;
+    margin-top: 5px;
+}
+
+#final-result{
+    font-size: 3vw;
+    display: inline;
+    margin: 100px 0 0 600px;
+    padding-left: 100px;
+}
